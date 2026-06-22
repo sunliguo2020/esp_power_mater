@@ -30,6 +30,7 @@
 #include <esp_lcd_panel_interface.h>
 #include <esp_lcd_panel_commands.h>
 
+#include "driver/gpio.h"
 #include "llist.h"
 #include "timer.h"
 #include "buzzer.h"
