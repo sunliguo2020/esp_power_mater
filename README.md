@@ -1,5 +1,28 @@
-# ESP功率计
+# XT60电流表航模功率计/ESP功率计
+
+嘉立创开源地址：https://oshwhub.com/qwiaoei/xt60-powermeter
+
+软件开源地址：https://github.com/xweicc/esp_power_mater
+
+# 简介：
+
+超迷你的XT60航模功率计电流表，最大64A电流 使用ESP32C3主控，INA226电流采样芯片，软硬件全开源
+
+实物图片：
+
+![xt60功率计](F:\github\esp_power_mater\images\xt60_mater.jpeg)
+
+# 功能：
+
+- 1、电流曲线，可统计最近26秒、2分钟、4分钟、26分钟、52分钟电流
+- 2、最大最小电流记录
+- 3、可设置低压报警、过流报警、过热报警
+- 4、量程设置，32A、64A
+- 5、按键报警音量设置
+- 6、支持电压电流校准
+
 ### 编译说明
+
 - 系统环境：Ubuntu 22.04
 - 安装esp-idf：https://docs.espressif.com/projects/esp-idf/zh_CN/release-v5.1/esp32c3/get-started/linux-macos-setup.html
 - 选择配置
@@ -33,6 +56,7 @@
 - 采样电阻：2毫欧，1%精度，5W功率
 ### 制作说明
 - 所有PCB BOM元件都可以在立创商城买到
+- 打板的板厚要1.2mm
 - 除PCB BOM外，还需要以下元件：
   - 1.29寸OLED显示屏，横屏，CH1115驱动，插接款
   - M2*9双通滚花铜柱*
@@ -43,5 +67,4 @@
       按住右下键上电
       打开flash_download_tool
 - <img src="images/73d138bb98a7495ea6fc5c432dfbc446.png" alt="flash_download_tool" style="zoom:50%;" />
-### 硬件开源地址
-- https://oshwhub.com/qwiaoei/xt60-powermeter
+
