@@ -10,7 +10,7 @@
 
 实物图片：
 
-![xt60功率计](F:\github\esp_power_mater\images\xt60_mater.jpeg)
+![xt60功率计](images\xt60_mater.jpeg)
 
 # 功能：
 
